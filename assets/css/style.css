@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Kumbh+Sans:wght@400;700&family=Lobster&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+h1,h2, h3, h4 {
+    font-family: 'poppins';
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background-color: #ECECEC;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo h2 h4 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+}
+
+.logo h3 {
+    margin: 25px;
+    margin-left: -42px;
+    font-family: 'poppins';
+    font-weight: 700;
+}
+
+.logo h2 {
+    margin-left: 5px;
+    font-family: 'poppins';
+    font-weight: 700;
+}
+
+.nav__menu ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav__menu ul li {
+    list-style: none;
+    padding: 20px;
+    margin-top: -8px;
+}
+
+.nav__menu ul li a {
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F0F0F;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav__menu ul li a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+    border-radius: 4px;
+}
+
+.lingkaran {
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 0 180px 180px 0;
+}
+
+.container__walcome {
+    display: flex;
+    width: 100%;
+    padding: 20px 20px 10px;
+    margin-top: 160px;
+}
+
+.item-walcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.item-walcome h4 {
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+.garis {
+    width: 60px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgba(64, 123, 255, 1);
+
+}
+
+.item-walcome h1 {
+    font-family: 'poppins';
+    font-size: 60px;
+    padding: 10px 0 0 0;
+}
+
+.img__walcome {
+    width: 360px;
+}
+
+.container__about {
+    display: flex;
+    width: 100%;
+
+}
+
+.item-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    align-items: center;
+}
+
+.item-about h2 {
+    font-weight: 600;
+    padding: 10px;
+}
+
+.item-about p {
+    font-size: 16px;
+    font-family: 'poppins';
+    line-height: 22px;
+}
+
+.span-about {
+    width: 60px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgba(64, 123, 255, 1);
+}
+
+.description {
+    line-height: 20px;
+    margin-top: 30px;
+    font-family: 'poppins';
+}
+
+.container__ourteam {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__ourteam h2 {
+    padding: 10px;
+}
+
+.ourteam {
+    width: 60px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgba(64, 123, 255, 1);
+}
+
+.container__profil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.item-profil {
+  padding: 0 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'popins';
+    font-weight: 700;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.job {
+    text-align: center;
+    font-family: 'poppins';
+}
+
+.bg-img img {
+    background-color:rgba(141, 141, 141, 1);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bg-img {
+    background-color:rgba(141, 141, 141, 1);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
